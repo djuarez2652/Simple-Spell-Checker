@@ -15,7 +15,7 @@ public class SpellCheckerDriver {
         String filename = input.nextLine();
 
         List<String> incorrectWords = sc.getIncorrectWords( filename );
-        System.out.println( "The following will show the incorrect words found followed by any suggestions" );
+        System.out.println( "The following will show the " + incorrectWords.size() + " incorrect words found followed by any suggestions" );
         System.out.println("-------------------------------------------------------------------------------\n");
         for ( String word : incorrectWords ) {
             System.out.println( word + " : " + sc.getSuggestions( word ) );

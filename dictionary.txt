@@ -6563,6 +6563,7 @@ peripherals
 perl
 permalink
 permanent
+permanently
 permission
 permissions
 permit
@@ -7621,6 +7622,7 @@ revision
 revisions
 revolution
 revolutionary
+revolutionized
 reward
 rewards
 reynolds
